@@ -9,7 +9,6 @@ function App() {
         <h1>Lord of the Rings</h1>
       </header>
       <main>
-        <img src="/src/assets/bg.jpg" alt="lotr-background" className="bg-image" />
         <Dashboard />
       </main>
       <footer>

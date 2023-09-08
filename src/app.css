@@ -5,7 +5,7 @@
     flex-direction: column;
     gap: 1.24rem;
     position: relative;
-    
+    background: url('/src/assets/bg.jpg') no-repeat center center / cover;
 }
 header {
     position: sticky;
