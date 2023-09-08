@@ -1,0 +1,42 @@
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    padding: 1.04rem 6.7rem 1.07rem;
+    border: none;
+    outline: none;
+    background: url("/src/assets/button-bg.svg") no-repeat;
+    background-position: 50% !important;
+    background-size: contain !important;
+    min-width: 20rem;
+    max-width: 200px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.38rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000;
+}
+
+.selectedButton {
+    background: url("/src/assets/selected-button.svg") no-repeat;
+    color: #7a6b39;
+
+}
+
+@media screen and (max-width: 768px) {
+    .options {
+        flex-direction: column;
+    }
+
+    .selectedButton,
+    .button {
+        padding: 1.24rem 3.7rem 1.27rem;
+        min-width: 16rem;
+        font-size: 1.18rem;
+    }
+}
